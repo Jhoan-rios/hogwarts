@@ -1,0 +1,180 @@
+*{
+    font-family: 'Harry Potter', sans-serif;
+}
+a{
+    cursor: pointer;
+}
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100%-100vw)/2));
+    z-index: -2;
+}
+.titulo{
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 100px;
+}
+.sect{
+    color: #BEBEBE;
+}
+.titulo:hover
+{
+    color: 	#f4c454;
+
+}
+.subtitulo:hover
+{
+    color: 	#f4c454;
+}
+.subtitulo{
+    margin-top: 110px;
+    font-size: 50px;
+}
+.ingresar{
+    margin-top: 180px;   
+    width: 200px;
+
+}
+#reproducir{
+    font-size: 20px;
+    padding-top: 10px;
+    transition: 1.2s;
+}
+#reproducir:hover{
+    background-color: #f4c454;
+    border: #f4c454;
+    transition: 1.2s;
+}
+.display-none
+{
+    display: none;
+}
+.top-30{
+    top: 40% !important; 
+}
+.top-70{
+    top: 70% !important;
+}
+.btn-secondary:hover{
+    background-color: aquamarine
+}
+.formulario{
+    background-image: url(./img/formulario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+label{
+    color: #fff;
+    margin-left: 40%;
+}
+legend{
+    color: #fff;
+    text-align: center;
+}
+#boton_formulario{
+    margin-top: 40px;
+    width: 280px;
+    transition: 1.2s;
+    font-size: 16px;
+}
+#boton_formulario:hover{
+    background-color: #f4c454;
+    border: #f4c454;
+    transition: 1.2s;
+}
+.sombrero{
+    background-image: url(./img/estasi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.imagen_casa{
+    width: 700px;
+    margin-right: 720px;
+}
+.clases{
+    background-image: url(./img/clase-posiones.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.h1-cl{
+    margin-top: 100px;
+    color: #cecece;
+}
+.scream{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.transformaciones{
+    background-image: url(./img/transformaciones.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.titlee{
+    color: #fff;
+    margin-left: 35%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.carta{
+    margin-top: 30px;
+}
+.died{
+    width: 250px;
+    height: 100px;
+    float: right;
+    margin-top: 20%;
+    margin-right: 100px;
+    z-index: 2;
+    position: absolute;
+}
+
+#muerto{
+    font-size: 30px;
+    padding-top: 10px;
+}
+#gano{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.gano{
+    width: 250px;
+    height: 100px;
+    float: right;
+    margin-top: 20%;
+    margin-right: 100px;
+    z-index: 2;
+    position: absolute;
+}
+.loser{
+    background-image: url(./img/muerte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.winer{
+    background-image: url(./img/victoria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#tabla{
+    width: 300px;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+}
